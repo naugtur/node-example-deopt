@@ -69,6 +69,10 @@ const examples = {
   letcompound(){
     let x=1;
     x+=1;
+  },
+  hashTableIteration() {
+    var hashTable = {"-": 3};
+    for(var key in hashTable);
   }
 }
 

@@ -4,7 +4,7 @@
 
 run `node --trace-opt --trace-deopt 1deopt.js` and see a clean example of single deoptimization.
 
-In real life it's much less readable.
+In real life it's much less readable ;)
 
 ## Testing if a function can be optimized
 
@@ -12,3 +12,12 @@ In real life it's much less readable.
 Run `node testing.js` and see how they do in different versions of node.
 
 use [n](https://www.npmjs.com/package/n) `npm install -g n` or get [nvm](https://github.com/creationix/nvm/blob/master/README.md) to switch node versions.
+
+## Try optimizing a function
+
+`fixable.js` is a module with a trivial parser, but it has a few issues preventing optimization.
+
+Try fixing the optimization issues without breaking any functionality.
+Run `npm test` to verify if you succeeded.
+
+`test/spoilers/fixed.js` contains a solution
