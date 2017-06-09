@@ -1,0 +1,21 @@
+{
+  "name": "node-example-deopt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naugtur/node-example-deopt.git"
+  },
+  "keywords": [],
+  "author": "naugtur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naugtur/node-example-deopt/issues"
+  },
+  "homepage": "https://github.com/naugtur/node-example-deopt#readme",
+  "dependencies": {
+    "check-v8-optimised": "^2.0.0"
+  }
+}
